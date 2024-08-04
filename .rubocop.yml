@@ -1,0 +1,84 @@
+AllCops:
+  NewCops: enable
+
+require:
+  - rubocop-rake
+  - rubocop-rspec
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/SlicingWithRange:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Layout/LineLength:
+  Enabled: false
+
+Layout/SpaceAroundEqualsInParameterDefault:
+  Enabled: false
+
+Layout/SpaceAroundOperators:
+  Enabled: false
+
+Layout/ExtraSpacing:
+  Enabled: false
+
+Layout/HashAlignment:
+  Enabled: false
+
+Layout/SpaceInsideStringInterpolation:
+  Enabled: false
+
+Naming/FileName:
+  Enabled: false
+
+Naming/PredicateName:
+  Enabled: false
+
+Naming/HeredocDelimiterNaming:
+  Enabled: false
+
+Layout/HeredocIndentation:
+  Enabled: false
+
+Security/Eval:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Enabled: false
+
+Gemspec/RequireMFA:
+  Enabled: false
+
+Gemspec/RequiredRubyVersion:
+  Enabled: false
